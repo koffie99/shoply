@@ -21,6 +21,7 @@ const Products = async () => {
                         <img src={product.image} alt="product image" className='h-[25vh]'/>
                         <div>
                             <h1 className='mt-3 mb-3 font-semibold text-lg text-[#242424]'>{product.title}</h1>
+                            <p className='text-sm text-[#818181]'>{(product.category).toUpperCase()}</p>
                             <p className='text-[#818181]'>{shortenText(product.description, 70)}</p>
                         </div>
                     </div>
