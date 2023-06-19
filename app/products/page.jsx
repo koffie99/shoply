@@ -12,7 +12,7 @@ const Products = async () => {
  }
 
   return (
-    <div className='min-h-screen'>
+    <div className='min-h-screen bg-[#f1f1f1]'>
         <Navbar />
         <br />
         <div className='p-24 flex gap-6 justify-center flex-wrap w-full'>
