@@ -27,7 +27,7 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  /* .nav{
-    padding: 20px;
-  } */
+  .product-card{
+    align-items: center;
+  }
 }
