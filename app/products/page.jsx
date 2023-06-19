@@ -15,14 +15,14 @@ const Products = async () => {
     <div className='min-h-screen bg-[#f1f1f1]'>
         <Navbar />
         <br />
-        <div className='p-24 flex gap-6 justify-center flex-wrap w-full'>
+        <div className='md:p-24 sm:p-8 flex gap-6 justify-center flex-wrap w-full'>
             {
                 products.map((product) => (
                     <div className='bg-white rounded-lg p-8 w-[90%] md:w-[350px] flex flex-col items-center gap-3 hover:shadow-2xl cursor-pointer'>
                         <img src={product.image} alt="product image" className='h-[25vh]'/>
                         <div>
-                            <h1 className='mt-3 mb-3 font-semibold text-lg'>{product.title}</h1>
-                            <p>{shortenText(product.description, 70)}</p>
+                            <h1 className='mt-3 mb-3 font-semibold text-lg text-[#242424]'>{product.title}</h1>
+                            <p className='text-[#818181]'>{shortenText(product.description, 70)}</p>
                         </div>
                     </div>
                 ))
