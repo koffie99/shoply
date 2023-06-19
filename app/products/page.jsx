@@ -14,7 +14,7 @@ const Products = async () => {
   return (
     <div className='min-h-screen bg-[#f1f1f1]'>
         <Navbar />
-        <div className='md:p-24 sm:p-8 mt-5 flex gap-6 justify-center flex-wrap w-full'>
+        <div className='md:p-24 sm:p-8 mt-[3rem] flex gap-6 justify-center flex-wrap w-full'>
             {
                 products.map((product) => (
                     <div className='bg-white rounded-lg p-8 w-[90%] md:w-[350px] flex flex-col items-center gap-3 hover:shadow-2xl cursor-pointer'>
