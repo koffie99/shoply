@@ -8,7 +8,7 @@ export default function Home() {
       <Navbar />
       <div className="min-h-screen flex flex-col gap-3 items-center justify-center p-15">
         <h1 className="font-semibold text-2xl text-[#242424] text-center">Welcome To Shoply</h1>
-        <p className="text-center text-[#818181]">The place where shopping becomes a second character</p>
+        <p className="text-center text-[#818181] px-4">The place where shopping becomes a second character</p>
         <Link href="/products" className="bg-[mediumseagreen] p-2 rounded text-white mt-4">Start Shopping</Link>
       </div>
     </main>
